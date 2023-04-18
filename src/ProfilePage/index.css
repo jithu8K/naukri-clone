@@ -1,0 +1,128 @@
+
+.Main-container{
+    display: grid;
+    margin: 0px 54px;
+    padding: 10px 10px;
+    grid-template-rows: 200px 40px auto;
+    /* justify-content: center; */
+    
+}
+.profile{
+    width: auto;
+    background-color: #4A90E2;
+}
+
+.sub-main{
+   
+    display: grid;
+    grid-template-columns: 247px 1fr;  
+   
+}
+.sub-nav{   
+     position: sticky;
+    top: 0; 
+   height: 480px;
+   width: 90%;
+    
+ }
+ 
+.sub-nav-list{
+        height: 44px;   
+        display: flex;
+        justify-content: space-between; 
+
+}
+#side-btn{
+    color: #4A90E2;
+}
+
+.sub-center{
+ display: grid;
+ grid-template-rows: 1fr repeat(5,140px) 400px 700px;
+ row-gap: 20px;
+}
+.Resume{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    /* border: 1px var(--sub-heading) solid; */
+    padding: 30px;
+}
+.heading-row{
+    display: flex;
+    gap: 12px;
+    align-items:center ;
+}
+.upload-content{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--sub-heading);
+
+}
+/* modal related styles  */
+.modal-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;        
+}
+
+
+.box{
+    /* padding: 20px; */
+    display: grid;
+    background-color: white;
+    /* width: 650px; */
+    /* height: 90vw; */
+    /* overflow-y: scroll; */
+    
+}
+.close-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.modal-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Personal Details styles */
+.box-split{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.heading{
+    color: var(--heading);
+}
+.box-split-box{
+    display: grid;
+    row-gap: 13px;
+}
+.box-split-item{
+    height: 45px;
+    display: grid;
+    row-gap: 5px;
+    align-items: center;
+    grid-template-rows: 1fr 15px;
+
+}
+/* gender-box */
+/* more-information-box */
+.more-info-box{
+    display: grid;
+    row-gap: 8px;
+   }
+.more-info-btn{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 9px;
+}   

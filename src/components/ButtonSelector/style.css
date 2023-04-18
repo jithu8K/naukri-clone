@@ -1,0 +1,15 @@
+.btn-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border:1px solid rgb(236, 236, 236);
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(86, 86, 86);
+}
+.btn-selector svg {
+    color:rgb(189, 189, 189);
+}
+.btn-selector.active {
+    background-color: rgb(236, 236, 236);
+}
